@@ -1,0 +1,4 @@
+###> p17-family/nginx ###
+/.env
+/.idea/
+###< p17-family/nginx ###

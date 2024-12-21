@@ -1,0 +1,5 @@
+###> p17-family/nginx ###
+/.idea/
+/.git/
+Dockerfile
+###< p17-family/nginx ###
