@@ -8,8 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      BASIC_AUTH_STRING: ABC
     steps:
       - uses: actions/checkout@v4
       - name: Docker Auth to GHCR
