@@ -12,7 +12,7 @@ RUN sed -i ':a;N;$!ba;s/\r//g' /bin/checkout-tag.sh \
 
 FROM nginx:${NGINX_VERSION_ARG}-alpine AS web
 LABEL maintainer="Nikolai Morozov <nikolai@p17.dev>"
-RUN apk add --no-cache tzdata~=2024
+RUN apk add --no-cache tzdata~=2025
 ENV TZ=Europe/Moscow
 COPY ./docker/nginx/config/nginx.conf /etc/nginx/nginx.conf
 COPY ./docker/nginx/config/healthcheck.nginx.conf /etc/nginx/conf.d/healthcheck.conf
